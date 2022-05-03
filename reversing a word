@@ -1,0 +1,8 @@
+#INPUT this is my book
+#OUTPUT book my is this
+def reverse():
+    a=input().split()
+    rev_a=a[::-1]
+    for i in rev_a:
+        print(i,end=" ")
+reverse()
